@@ -1,4 +1,75 @@
 body{
-    background-color: aliceblue;
+    background-image: url(/starter-code/assets/home/background-home-desktop.jpg);
 
+}
+
+.navbar{
+
+    height: 60px;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+}
+
+ul{
+    list-style: none;
+    color: #808080;
+    display: flex;
+    flex-direction: row;
+    gap: 2.4rem;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+.tools{
+
+    width: 600px;
+    padding-right: 0px;
+    background-color: rgba(0, 0, 0,.2);
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    width: 350px;
+    margin-left: 4rem;
+    
+}
+
+.explore{
+    height: 170px;
+    width: 170px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    bottom: 135px;
+    right: 100px;
+    border-radius: 50%;
+    color:#808080 ;
+}
+
+
+.p1 , .p2{
+    color:#808080;
+}
+
+.space{
+    font-size: 100px;
+    margin-bottom: 2.0rem;
+    color:white;
+    margin-top: 1.0rem;
 }
